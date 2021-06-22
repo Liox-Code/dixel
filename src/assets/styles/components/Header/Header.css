@@ -1,0 +1,24 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    min-height: 60px;
+    width: 100%;
+    background-color: var(--complementary-6-color);
+}
+
+.logo-header {
+    grid-column: 2 / 3;
+    justify-self: center;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.menu-header {
+    grid-column: 3 / 4;
+    justify-self: end;
+    min-width: 35px;
+    min-height: 35px;
+}

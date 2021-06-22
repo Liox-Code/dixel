@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #00f5d4;
+      }
+
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="Layer_7" data-name="Layer 7">
+      <circle class="cls-1" cx="18" cy="18" r="17.5"/>
+      <line class="cls-2" x1="10.5" y1="18" x2="25.5" y2="18"/>
+      <line class="cls-2" x1="10.5" y1="13" x2="25.5" y2="13"/>
+      <line class="cls-2" x1="10.5" y1="23" x2="25.5" y2="23"/>
+    </g>
+  </g>
+</svg>
