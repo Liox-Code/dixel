@@ -9,7 +9,6 @@ import menu from '../../assets/static/menu.svg';
 
 //styles
 import '../../assets/styles/components/Header/Header.css';
-import '../../assets/styles/icons/menuIcon.css';
 
 const Header = () => {
     return(
