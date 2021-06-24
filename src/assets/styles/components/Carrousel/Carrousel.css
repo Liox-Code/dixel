@@ -1,0 +1,51 @@
+.carrousel {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    'title title title'
+    'underline underline underline'
+    'left carrousel right';
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 52px 20px 0px;
+    background: linear-gradient(to bottom, var(--complementary-8-color), var(--secundary-color));
+}
+
+.carrousel > h2 {
+    grid-area: title;
+    margin-bottom: 16px;
+    color: var(--white);
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-family: var(--Montserrat-Black-font);
+    text-align: center;
+}
+
+.underline {
+    grid-area: underline;
+}
+
+.left {
+    grid-area: left;
+    z-index: 1;
+}
+
+.right {
+    grid-area: right;
+    z-index: 1;
+}
+
+.carrousel-item-container {
+    grid-area: carrousel;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    grid-auto-flow: column;
+    grid-auto-columns: clamp(280px, 100%, 340px);
+    width: 100%;
+    padding: 52px 0;
+    overflow: hidden;
+    z-index: 0;
+}

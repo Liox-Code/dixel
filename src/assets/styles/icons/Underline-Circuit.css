@@ -1,0 +1,15 @@
+.underline-circuit {
+    width: 100%;
+    max-width: 335px;
+}
+
+.underline-circle {
+    fill: #00f5d4;
+}
+
+.underline-line {
+    fill: none;
+    stroke: #00f5d4;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}

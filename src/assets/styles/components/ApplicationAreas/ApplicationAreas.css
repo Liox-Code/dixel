@@ -1,0 +1,17 @@
+.application-areas {
+    background: linear-gradient(to bottom, var(--secundary-color), var(--complementary-9-color));
+}
+
+.application-areas > h2 {
+    grid-area: title;
+    margin-bottom: 16px;
+    color: var(--white);
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-family: var(--Montserrat-Black-font);
+    text-align: center;
+}
+
+.application-areas > .underline {
+    grid-area: underline;
+}

@@ -1,0 +1,18 @@
+.circula-red-button {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 100px;
+    color: var(--white);
+}
+
+.circula-red-button--left {
+    box-shadow: 5px -5px var(--complementary-6-color);
+    color: var(--white);
+}
+
+.circula-red-button--right {
+    box-shadow: -5px -5px var(--complementary-6-color);
+    color: var(--white);
+}

@@ -18,7 +18,7 @@ const Services = () => {
             "id": 1,
             "title": "Tu Aplicación Web Profesional",
             "description": "Muchas empresas han decidido instalarse en el entorno digital puesto que está comprobado que tener una web es parte muy importante de un negocio.",
-            "image": ar 
+            "image": webApp 
         },
         {
             "id": 2,
@@ -31,7 +31,7 @@ const Services = () => {
             "id": 3,
             "title": "Tu propia Aplicación",
             "description": "Las PWA, son aplicaciones web que no dependen de una instalación o una tienda para su descarga. Únicamente se requiere acceso a Internet para encontrarlas y poder anclarlas al dispositivo en cuestión, aunque su funcionamiento posterior puede no depender de conexión a la red.",
-            "image": ar 
+            "image": app 
         }
     ]
     
@@ -62,9 +62,9 @@ const Services = () => {
                     <circle className="cls cls-1" cx="294.01" cy="4" r="4"/>
                     <line className="cls cls-2" x1="4" y1="4" x2="147" y2="4"/>
                     <line className="cls cls-2" x1="294.01" y1="4" x2="147" y2="4"/>
-                    <circle className="cls cls-1" cx="48.21" cy="174.99" r="5"/>
-                    <circle className="cls cls-1" cx="48.21" cy="478.64" r="5"/>
-                    <circle className="cls cls-1" cx="48.21" cy="850" r="5"/>
+                    <circle className="circle circle-1" cx="48.21" cy="174.99" r="5"/>
+                    <circle className="circle circle-2" cx="48.21" cy="478.64" r="5"/>
+                    <circle className="circle circle-3" cx="48.21" cy="850" r="5"/>
                     <polyline className="cls cls-3" points="149.71 4 149.71 24.48 4 24.48 4 850"/>
                     <line className="cls cls-4" x1="4" y1="174.99" x2="48.21" y2="174.99"/>
                     <line className="cls cls-5" x1="4" y1="478.64" x2="48.21" y2="478.64"/>

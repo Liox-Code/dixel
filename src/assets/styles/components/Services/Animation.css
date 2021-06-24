@@ -1,12 +1,3 @@
-/* 
-.cls-1 {
-    fill: none;
-    stroke: #00f5d4;
-    stroke-miterlimit: 10;
-    stroke-width: 2px;
-    stroke-dasharray: 2000;
-    animation: dash 5s;
-} */
 .cls {
     fill: none;
     stroke: #00f5d4;
@@ -58,6 +49,33 @@
     animation-fill-mode: forwards;  
 }
 
+.circle {
+    fill: #00f5d4;
+    stroke: none;
+    opacity: 0;
+}
+
+.circle-1 {
+    animation: circle1 1s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.circle-2 {
+    animation: circle2 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.circle-3 {
+    animation: circle3 1s;
+    animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
 @keyframes dash2 {
     from {
         stroke-dasharray: 147.01;
@@ -88,5 +106,32 @@
     100% {
         stroke-dasharray: 44.21;
         stroke-dashoffset: 0;
+    }
+}
+
+@keyframes circle1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes circle2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes circle3 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }

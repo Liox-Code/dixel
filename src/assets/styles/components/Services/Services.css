@@ -12,7 +12,7 @@
 .services > h2 {
     justify-self: center;
     margin-top: 52px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     font-family: var(--Montserrat-Black-font);
     font-size: 1.8rem;
     color: var(--white);
